@@ -6,24 +6,24 @@
 
 ## Problem Statement
 ### Complexity of Patient Health Records
--**Challenge**: Patient records are often complex, stored in intricate JSON file formats.
+- **Challenge**: Patient records are often complex, stored in intricate JSON file formats.
 Impact: Managing and interpreting this data is challenging and time-consuming.
 ### Challenges in Data Retrieval
--**Challenge**: Retrieving specific, context-dependent information is difficult, leading to frequent misinterpretations.
+- **Challenge**: Retrieving specific, context-dependent information is difficult, leading to frequent misinterpretations.
 ### Impact on Decision-Making
--**Challenge**: Inadequate systems result in delayed decision-making and compromised data accuracy, affecting patient care quality.
+- **Challenge**: Inadequate systems result in delayed decision-making and compromised data accuracy, affecting patient care quality.
 ### Scalability Issues
--**Challenge**: Current systems struggle to scale efficiently with growing healthcare data volumes, leading to bottlenecks in data processing and retrieval.
+- **Challenge**: Current systems struggle to scale efficiently with growing healthcare data volumes, leading to bottlenecks in data processing and retrieval.
 
 ## Our Solution
 
 MedScan offers a comprehensive solution to these challenges:
 
--**AI-Driven Data Management**: Utilizes AI to handle complex JSON patient records.
--**Integration with Snowflake**: Ensures efficient data processing and management.
--**LangChain Model**: Converts natural language inputs into SQL queries, providing contextualized data retrieval.
--**User-Friendly Dashboard**: Offers an intuitive interface for seamless data interaction.
--**Admin Panel:** Allows real-time updates of patient and doctor records to the connected database.
+- **AI-Driven Data Management**: Utilizes AI to handle complex JSON patient records.
+- **Integration with Snowflake**: Ensures efficient data processing and management.
+- **LangChain Model**: Converts natural language inputs into SQL queries, providing contextualized data retrieval.
+- **User-Friendly Dashboard**: Offers an intuitive interface for seamless data interaction.
+- **Admin Panel:** Allows real-time updates of patient and doctor records to the connected database.
 
 
 ## Features
@@ -52,10 +52,10 @@ streamlit main2.py
 TThis will launch the Streamlit interface where you can interact with MedScan.
 
 ### 2.. Using MedScan
--**Home:** Introduction and overview of MedScan’s capabilities.
--**AI-SQL Interface:** Enter natural language queries to interact with the AI SQL Assistant.
--**Schema Viewer:** View schema details to understand the database structure.
--**Admin Panel:** Manage and update patient and doctor records.
+- **Home:** Introduction and overview of MedScan’s capabilities.
+- **AI-SQL Interface:** Enter natural language queries to interact with the AI SQL Assistant.
+- **Schema Viewer:** View schema details to understand the database structure.
+- **Admin Panel:** Manage and update patient and doctor records.
 
 ### 3. Starting a New Chat
 - Click the "New Chat" button to reset the session and start a fresh interaction.
@@ -76,14 +76,14 @@ Before running the application, ensure you set up your environment variables cor
 # MY Contribution
 
 ## Chat Interface
--Developed natural language input handling and prompt management.
--Created templates for efficient query generation and contextualization.
+- Developed natural language input handling and prompt management.
+- Created templates for efficient query generation and contextualization.
 
 ## Query Generation and Execution
--Implemented automatic SQL query generation and execution based on user input.
+- Implemented automatic SQL query generation and execution based on user input.
 
 ##Admin Panel with Dynamic Dashboard
--Developed the frontend interface for interaction and data visualization.
--Implemented backend logic for data retrieval and updates.
--Ensured synchronization between the backend and database for real-time updates.
+- Developed the frontend interface for interaction and data visualization.
+- Implemented backend logic for data retrieval and updates.
+- Ensured synchronization between the backend and database for real-time updates.
 
