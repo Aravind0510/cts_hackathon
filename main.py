@@ -62,13 +62,13 @@ def new_chat():
     st.session_state.entity_memory.buffer.clear()
 
 
-os.environ['GOOGLE_API_KEY'] ="AIzaSyBEeIGxpdKR7rAg6ALiLD9pgYNkVJOyt2A"
+os.environ['GOOGLE_API_KEY'] ="GOOGLE_API_KEY"
 
 
 
 llm = ChatGoogleGenerativeAI(model="gemini-pro",temperature=0)
 # Correct the model name to "gpt-4"
-#llm = OpenAI(temperature=0, openai_api_key="sk-UST-29KaVbUsoPoE6H_1ROgnlM4XEVRlIhkhcknV73T3BlbkFJJwVMCCU6ChweOO_fuHoCHYcq8pTpD1mN4paDHaFvAA", model="gpt-3.5-turbo-instruct", verbose=False)
+#llm = OpenAI(temperature=0, openai_api_key="OPEN_AI_KEY", model="gpt-3.5-turbo-instruct", verbose=False)
 
 if "entity_memory" not in st.session_state:
     st.session_state.entity_memory = ConversationEntityMemory(llm=llm)
